@@ -1,0 +1,14 @@
+[
+    { "id": 1, "name": "Apple Juice 500ml", "sku": "MM-0010", "category": "Beverages", "price": 3.2, "stock": 42, "barcode": "888001000001", "image": "assets/images/beverage.svg" },
+    { "id": 2, "name": "Baguette", "sku": "MM-0011", "category": "Bakery", "price": 1.5, "stock": 87, "barcode": "888001000002", "image": "assets/images/bakery.svg" },
+    { "id": 3, "name": "Baked Beans 420g", "sku": "MM-0012", "category": "Canned Goods", "price": 1.8, "stock": 36, "barcode": "888001000003", "image": "assets/images/canned.svg" },
+    { "id": 4, "name": "Bananas 1kg", "sku": "MM-0013", "category": "Produce", "price": 1.99, "stock": 60, "barcode": "888001000004", "image": "assets/images/produce.svg" },
+    { "id": 5, "name": "Beef Ribeye 500g", "sku": "MM-0014", "category": "Meat", "price": 14.99, "stock": 12, "barcode": "888001000005", "image": "assets/images/meat.svg" },
+    { "id": 6, "name": "Black Pepper 50g", "sku": "MM-0015", "category": "Cooking Essentials", "price": 2.0, "stock": 33, "barcode": "888001000006", "image": "assets/images/spices.svg" },
+    { "id": 7, "name": "Body Wash 500ml", "sku": "MM-0016", "category": "Personal Care", "price": 4.99, "stock": 20, "barcode": "888001000007", "image": "assets/images/personal-care.svg" },
+    { "id": 8, "name": "Brown Rice 2kg", "sku": "MM-0017", "category": "Grains", "price": 6.2, "stock": 25, "barcode": "888001000008", "image": "assets/images/grains.svg" },
+    { "id": 9, "name": "Butter 250g", "sku": "MM-0018", "category": "Dairy", "price": 3.5, "stock": 54, "barcode": "888001000009", "image": "assets/images/dairy.svg" },
+    { "id": 10, "name": "Canned Tuna 160g", "sku": "MM-0019", "category": "Canned Goods", "price": 2.1, "stock": 40, "barcode": "888001000010", "image": "assets/images/canned.svg" },
+    { "id": 11, "name": "Chicken Breast 1kg", "sku": "MM-0020", "category": "Meat", "price": 8.99, "stock": 18, "barcode": "888001000011", "image": "assets/images/meat.svg" },
+    { "id": 12, "name": "Chocolate Bar 100g", "sku": "MM-0021", "category": "Snacks", "price": 1.99, "stock": 74, "barcode": "888001000012", "image": "assets/images/snacks.svg" }
+]
