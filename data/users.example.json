@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Admin User",
+        "username": "admin",
+        "email": "admin@minimarket.local",
+        "password_hash": "$2y$10$JmdFjhT7lCoNOYCSU35DKuiHn0zbw1UhBXVnjYMpgS7eSx9ugLmNq",
+        "role": "admin",
+        "locked": false,
+        "failed_attempts": 0
+    },
+    {
+        "id": 2,
+        "name": "Cashier Rina",
+        "username": "rina",
+        "email": "rina@minimarket.local",
+        "password_hash": "$2y$10$A3BbR3V/0mvoZUPcyueUKujG06r6iNhcZ2d1Nh7vIKwaAenvDabAO",
+        "role": "cashier",
+        "locked": false,
+        "failed_attempts": 0
+    }
+]

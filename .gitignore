@@ -1,0 +1,50 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.code-workspace
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+secrets/
+credentials/
+
+# Local / database config (if added later)
+config/database.php
+config/*.local.php
+config/installed.lock
+
+# Private app data (real users, emails, password hashes, sessions)
+data/users.json
+data/*.local.json
+data/sessions/
+data/uploads/
+data/backups/
+
+# Logs & temp
+*.log
+logs/
+tmp/
+temp/
+cache/
+
+# Composer / Node (if added later)
+/vendor/
+/node_modules/
+composer.lock
+package-lock.json
+
+# XAMPP / local dumps
+*.sql.gz
+*.sqlite
+*.db

@@ -79,7 +79,11 @@ Demo accounts (also shown on the Dashboard when logged in as admin):
 | Admin | `admin` | `admin123` |
 | Cashier | `rina` | `cashier123` |
 
-User data is stored in `data/users.json`. Products are in `data/products.json`. If `users.json` is missing, the app recreates default admin / cashier accounts.
+User data is stored locally in `data/users.json` (**gitignored** — never commit real accounts). Products are in `data/products.json`.
+
+First-time setup for users:
+1. Copy `data/users.example.json` → `data/users.json`, **or**
+2. Delete `data/users.json` and let the app recreate demo admin / cashier accounts on next login attempt.
 
 ## 2. Roles
 
@@ -137,6 +141,8 @@ Use **Toggle Theme** in the top bar to switch light / dark. Preference is saved 
 - Sessions are regenerated after successful login
 - Optional “Remember me” cookie stores username only (httponly)
 - Prefer changing demo passwords before any real store use
+- `.gitignore` hides `data/users.json`, `.env`, and local DB/config secrets
+- Only commit `data/users.example.json` (demo accounts), never real emails or password hashes
 
 ## License
 
